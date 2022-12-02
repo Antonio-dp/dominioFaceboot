@@ -141,28 +141,14 @@ public class Publicacion {
         this.hashtagPublicacion = hashtagPublicacion;
     }
 
-//    public List<Hashtag> getHashtag() {
-//        return hashtag;
-//    }
-//
-//    public void setHashtag(List<Hashtag> hashtag) {
-//        this.hashtag = hashtag;
-//    }
-//    public List<EtiquetaUsuario> getEtiquetas() {
-//        return etiquetasPublicacion;
-//    }
-//
-//    public void setEtiquetas(List<EtiquetaUsuario> etiquetas) {
-//        this.etiquetasPublicacion = etiquetas;
-//    }
-//
-//    public List<HashtagPublicacion> getHashtagPublicaciones() {
-//        return hashtagPublicaciones;
-//    }
-//
-//    public void setHashtagPublicaciones(List<HashtagPublicacion> hashtagPublicaciones) {
-//        this.hashtagPublicaciones = hashtagPublicaciones;
-//    }
+    public List<EtiquetaUsuario> getEtiquetasPublicacion() {
+        return etiquetasPublicacion;
+    }
+
+    public void setEtiquetasPublicacion(List<EtiquetaUsuario> etiquetasPublicacion) {
+        this.etiquetasPublicacion = etiquetasPublicacion;
+    }
+    
     @Override
     public boolean equals(Object o) {
         if (this == o) {

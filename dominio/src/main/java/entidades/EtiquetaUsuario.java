@@ -42,7 +42,12 @@ public class EtiquetaUsuario implements Serializable {
     @ManyToMany(mappedBy = "etiquetasPublicacion")
     private List<Publicacion> publicaciones;
 
+    private String nombre;
     public EtiquetaUsuario() {
+    }
+
+    public EtiquetaUsuario(String nombre) {
+        this.nombre = nombre;
     }
 
     public EtiquetaUsuario(Usuario usuario) {
@@ -76,6 +81,14 @@ public class EtiquetaUsuario implements Serializable {
 
     public void setPublicaciones(List<Publicacion> publicaciones) {
         this.publicaciones = publicaciones;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
     
 
