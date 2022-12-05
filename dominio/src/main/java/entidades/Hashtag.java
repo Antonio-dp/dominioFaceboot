@@ -36,9 +36,6 @@ public class Hashtag implements Serializable {
 
     @ManyToMany(mappedBy = "hashtagPublicacion")
     private List<Publicacion> hashtags;
-    
-//    @OneToMany(mappedBy = "hashtag", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-//    private List<HashtagPublicacion> hashtag;
 
     @Column(name = "tema")
     private String tema;

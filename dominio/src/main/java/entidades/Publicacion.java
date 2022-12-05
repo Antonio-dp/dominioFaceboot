@@ -53,12 +53,7 @@ public class Publicacion {
 
     @OneToMany(mappedBy = "publicacion", cascade = {CascadeType.PERSIST, CascadeType.DETACH}, fetch = FetchType.EAGER)
     private List<Comentario> comentarios;
-//
-//    @OneToMany( mappedBy = "publicacion", cascade = CascadeType.ALL)
-//    private List<Etiqueta> etiquetas;
-//
-//    @OneToMany(mappedBy = "publicacion", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-//    private List<HashtagPublicacion> hashtagPublicacion;
+
 
     public Publicacion() {
     }

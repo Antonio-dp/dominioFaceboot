@@ -49,9 +49,15 @@ public class Usuario {
     @Temporal(TemporalType.TIMESTAMP)
     private Calendar fechaNacimiento;
 
-    @OneToMany(fetch = FetchType.EAGER, cascade ={CascadeType.PERSIST, CascadeType.DETACH}, mappedBy="usuario")
+    @OneToMany(fetch = FetchType.EAGER, cascade = {CascadeType.PERSIST, CascadeType.DETACH}, mappedBy = "usuario")
+    private List<Comentario> comentarios;
+
+    @OneToMany(fetch = FetchType.EAGER, cascade = {CascadeType.PERSIST, CascadeType.DETACH}, mappedBy = "usuario")
     private List<Publicacion> publicaciones;
-    
+
+    @OneToMany(fetch = FetchType.EAGER, cascade = {CascadeType.PERSIST, CascadeType.DETACH}, mappedBy = "usuario")
+    private List<EtiquetaUsuario> etiquetasUsuario;
+
     @JsonIgnore
     @OneToMany(mappedBy = "remitente", cascade = {CascadeType.MERGE, CascadeType.DETACH})
     private List<Notificacion> notificacionesRemitente;
@@ -59,7 +65,7 @@ public class Usuario {
     @JsonIgnore
     @OneToMany(mappedBy = "destinatario", cascade = {CascadeType.MERGE, CascadeType.DETACH})
     private List<Notificacion> notificacionesDestinatario;
-    
+
     public Usuario() {
     }
 
@@ -194,7 +200,15 @@ public class Usuario {
     public void setNotificacionesDestinatario(List<Notificacion> notificacionesDestinatario) {
         this.notificacionesDestinatario = notificacionesDestinatario;
     }
-    
+
+    public List<EtiquetaUsuario> getEtiquetasUsuario() {
+        return etiquetasUsuario;
+    }
+
+    public void setEtiquetasUsuario(List<EtiquetaUsuario> etiquetasUsuario) {
+        this.etiquetasUsuario = etiquetasUsuario;
+    }
+
     @Override
     public int hashCode() {
         int hash = 3;
