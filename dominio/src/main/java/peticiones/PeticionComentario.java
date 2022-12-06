@@ -8,7 +8,7 @@ import entidades.Comentario;
 
 /**
  *
- * @author jegav
+ * @author Jesus Valencia, Antonio del Pardo, Marco Irineo, Giovanni Garrido
  */
 public class PeticionComentario extends Peticion {
     private Comentario comentario;

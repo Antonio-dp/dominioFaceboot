@@ -8,7 +8,7 @@ import entidades.Hashtag;
 
 /**
  *
- * @author jegav
+ * @author Jesus Valencia, Antonio del Pardo, Marco Irineo, Giovanni Garrido
  */
 public class PeticionHashtag extends Peticion {
     private Hashtag hashtag;

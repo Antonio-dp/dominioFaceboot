@@ -5,10 +5,8 @@
  */
 package entidades;
 
-import java.io.Serializable;
 import java.util.Calendar;
 import java.util.Objects;
-import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -22,7 +20,7 @@ import jakarta.persistence.TemporalType;
 
 /**
  *
- * @author Usuario
+ * @author Jesus Valencia, Antonio del Pardo, Marco Irineo, Giovanni Garrido
  */
 @Entity
 @Table(name = "comentarios")

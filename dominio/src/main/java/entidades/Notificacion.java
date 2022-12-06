@@ -5,7 +5,6 @@
  */
 package entidades;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import enumeradores.MotorEnvio;
 import java.io.Serializable;
 import java.util.Calendar;
@@ -26,7 +25,7 @@ import jakarta.persistence.TemporalType;
 
 /**
  *
- * @author Usuario
+ * @author Jesus Valencia, Antonio del Pardo, Marco Irineo, Giovanni Garrido
  */
 @Entity
 @Table(name = "notificaciones")

@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  *
- * @author tonyd
+ * @author Jesus Valencia, Antonio del Pardo, Marco Irineo, Giovanni Garrido
  */
 public class PeticionHashtags extends Peticion {
 

@@ -7,7 +7,7 @@ package enumeradores;
 
 /**
  *
- * @author Usuario
+ * @author Jesus Valencia, Antonio del Pardo, Marco Irineo, Giovanni Garrido
  */
 public enum MotorEnvio {
     simpleJavaMail,

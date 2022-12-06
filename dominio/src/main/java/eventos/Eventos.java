@@ -7,7 +7,7 @@ package eventos;
 
 /**
  *
- * @author Usuario
+ * @author Jesus Valencia, Antonio del Pardo, Marco Irineo, Giovanni Garrido
  */
 public class Eventos {
     public static String registrarUsuario="RegistrarUsuario";

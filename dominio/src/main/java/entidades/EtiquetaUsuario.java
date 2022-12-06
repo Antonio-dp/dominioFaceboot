@@ -22,7 +22,7 @@ import java.util.List;
 
 /**
  *
- * @author Usuario
+ * @author Jesus Valencia, Antonio del Pardo, Marco Irineo, Giovanni Garrido
  */
 @Entity
 @Table (name = "EtiquetasUsuarios")

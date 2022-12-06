@@ -17,7 +17,7 @@
 //import jakarta.persistence.Table;
 ///**
 // *
-// * @author Usuario
+// * @author Jesus Valencia, Antonio del Pardo, Marco Irineo, Giovanni Garrido
 // */
 //@Entity
 //@Table(name = "etiquetasPublicaciones")

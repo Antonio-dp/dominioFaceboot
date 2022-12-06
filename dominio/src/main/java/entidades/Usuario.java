@@ -6,7 +6,6 @@
 package entidades;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import enumeradores.Sexo;
 import java.util.Calendar;
 import java.util.Objects;
@@ -15,7 +14,7 @@ import java.util.List;
 
 /**
  *
- * @author Usuario
+ * @author Jesus Valencia, Antonio del Pardo, Marco Irineo, Giovanni Garrido
  */
 @Entity
 @Table(name = "usuarios")

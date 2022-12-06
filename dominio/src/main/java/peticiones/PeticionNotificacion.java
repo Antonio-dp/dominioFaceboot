@@ -8,7 +8,7 @@ import entidades.Notificacion;
 
 /**
  *
- * @author tonyd
+ * @author Jesus Valencia, Antonio del Pardo, Marco Irineo, Giovanni Garrido
  */
 public class PeticionNotificacion extends Peticion{
     private Notificacion notificacion;

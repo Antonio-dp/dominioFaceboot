@@ -13,7 +13,7 @@ import java.util.Calendar;
 
 /**
  *
- * @author tonyd
+ * @author Jesus Valencia, Antonio del Pardo, Marco Irineo, Giovanni Garrido
  */
 public class test {
 
