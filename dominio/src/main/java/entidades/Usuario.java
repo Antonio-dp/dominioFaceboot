@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  *
- * @author Jesus Valencia, Antonio del Pardo, Marco Irineo, Giovanni Garrido
+ * @author Usuario
  */
 @Entity
 @Table(name = "usuarios")

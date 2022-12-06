@@ -20,7 +20,7 @@ import jakarta.persistence.TemporalType;
 
 /**
  *
- * @author Jesus Valencia, Antonio del Pardo, Marco Irineo, Giovanni Garrido
+ * @author Usuario
  */
 @Entity
 @Table(name = "comentarios")

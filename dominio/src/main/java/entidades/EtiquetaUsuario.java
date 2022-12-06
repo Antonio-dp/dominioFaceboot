@@ -22,7 +22,7 @@ import java.util.List;
 
 /**
  *
- * @author Jesus Valencia, Antonio del Pardo, Marco Irineo, Giovanni Garrido
+ * @author Usuario
  */
 @Entity
 @Table (name = "EtiquetasUsuarios")
@@ -121,11 +121,5 @@ public class EtiquetaUsuario implements Serializable {
     @Override
     public String toString() {
         return usuario.getNombre();
-    }
-    
-    
-
-    
-    
-    
+    }   
 }//end class
